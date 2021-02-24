@@ -1,0 +1,48 @@
+:root {
+  --gray-line: #dcdde0;
+  --text: #666;
+  --t-highlight: #b3b9ff;
+  --title: #2e384d;
+  --red: #e83f5b;
+  --blue-dark: #4953b8;
+  --umai: #4cd62b;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  font-family: "Nanum Gothic";
+  color: black;
+  background-color: #0b0b09;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+button {
+  font: 400 16px "Nanum Gothic";
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
